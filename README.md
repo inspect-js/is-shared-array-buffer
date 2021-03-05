@@ -13,7 +13,7 @@ Is this value a JS SharedArrayBuffer? This module works cross-realm/iframe, does
 
 ```js
 var assert = require('assert');
-var isSharedArrayBuffer = require('is-finalizationregistry');
+var isSharedArrayBuffer = require('is-shared-array-buffer');
 
 assert(!isSharedArrayBuffer(function () {}));
 assert(!isSharedArrayBuffer(null));
@@ -39,14 +39,14 @@ assert(isSharedArrayBuffer(new MySharedArrayBuffer()));
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[1]: https://npmjs.org/package/is-finalizationregistry
-[2]: https://versionbadg.es/inspect-js/is-finalizationregistry.svg
-[5]: https://david-dm.org/inspect-js/is-finalizationregistry.svg
-[6]: https://david-dm.org/inspect-js/is-finalizationregistry
-[7]: https://david-dm.org/inspect-js/is-finalizationregistry/dev-status.svg
-[8]: https://david-dm.org/inspect-js/is-finalizationregistry#info=devDependencies
-[11]: https://nodei.co/npm/is-finalizationregistry.png?downloads=true&stars=true
-[license-image]: https://img.shields.io/npm/l/is-finalizationregistry.svg
+[1]: https://npmjs.org/package/is-shared-array-buffer
+[2]: https://versionbadg.es/inspect-js/is-shared-array-buffer.svg
+[5]: https://david-dm.org/inspect-js/is-shared-array-buffer.svg
+[6]: https://david-dm.org/inspect-js/is-shared-array-buffer
+[7]: https://david-dm.org/inspect-js/is-shared-array-buffer/dev-status.svg
+[8]: https://david-dm.org/inspect-js/is-shared-array-buffer#info=devDependencies
+[11]: https://nodei.co/npm/is-shared-array-buffer.png?downloads=true&stars=true
+[license-image]: https://img.shields.io/npm/l/is-shared-array-buffer.svg
 [license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/is-finalizationregistry.svg
-[downloads-url]: https://npm-stat.com/charts.html?package=is-finalizationregistry
+[downloads-image]: https://img.shields.io/npm/dm/is-shared-array-buffer.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-shared-array-buffer
