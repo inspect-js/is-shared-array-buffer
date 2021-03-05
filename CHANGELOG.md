@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/inspect-js/is-shared-array-buffer/compare/v1.0.0...v1.0.1) - 2021-03-04
+
+### Commits
+
+- [readme] fix repo URLs [`37c38f3`](https://github.com/inspect-js/is-shared-array-buffer/commit/37c38f347392da177197dd2fd518b61240a56203)
+
 ## v1.0.0 - 2021-03-04
 
 ### Commits
