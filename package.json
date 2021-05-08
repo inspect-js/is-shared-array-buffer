@@ -17,6 +17,8 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
+		"prepublishOnly": "safe-publish-latest",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint --ext=.js,.mjs .",
 		"pretest": "npm run lint",
 		"tests-only": "nyc tape 'test/**/*.js'",
@@ -51,6 +53,7 @@
 		"for-each": "^0.3.3",
 		"nyc": "^10.3.2",
 		"object-inspect": "^1.9.0",
+		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.2.2"
 	},
 	"auto-changelog": {
