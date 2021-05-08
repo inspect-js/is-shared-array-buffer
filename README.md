@@ -1,5 +1,7 @@
 # is-shared-array-buffer <sup>[![Version Badge][2]][1]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -50,3 +52,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/is-shared-array-buffer.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=is-shared-array-buffer
+[codecov-image]: https://codecov.io/gh/inspect-js/is-shared-array-buffer/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/inspect-js/is-shared-array-buffer/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/is-shared-array-buffer
+[actions-url]: https://github.com/inspect-js/is-shared-array-buffer/actions
