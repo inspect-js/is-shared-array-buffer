@@ -46,8 +46,8 @@
 	},
 	"homepage": "https://github.com/inspect-js/is-shared-array-buffer#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^21.0.0",
-		"aud": "^2.0.1",
+		"@ljharb/eslint-config": "^21.0.1",
+		"aud": "^2.0.2",
 		"auto-changelog": "^2.4.0",
 		"available-typed-arrays": "^1.0.5",
 		"es-value-fixtures": "^1.4.2",
