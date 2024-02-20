@@ -21,6 +21,7 @@
 		"prepublishOnly": "safe-publish-latest",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint --ext=.js,.mjs .",
+		"postlint": "tsc -p .",
 		"pretest": "npm run lint",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"test": "npm run tests-only --",
@@ -47,6 +48,12 @@
 	"homepage": "https://github.com/inspect-js/is-shared-array-buffer#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
+		"@types/call-bind": "^1.0.5",
+		"@types/es-value-fixtures": "^1.4.4",
+		"@types/for-each": "^0.3.3",
+		"@types/node": "^20.11.19",
+		"@types/object-inspect": "^1.8.4",
+		"@types/tape": "^5.6.4",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
 		"available-typed-arrays": "^1.0.7",
@@ -58,7 +65,8 @@
 		"nyc": "^10.3.2",
 		"object-inspect": "^1.13.1",
 		"safe-publish-latest": "^2.0.0",
-		"tape": "^5.7.5"
+		"tape": "^5.7.5",
+		"typescript": "next"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
