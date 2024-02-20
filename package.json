@@ -69,7 +69,7 @@
 		"hideCredit": true
 	},
 	"dependencies": {
-		"call-bind": "^1.0.2"
+		"call-bind": "^1.0.7"
 	},
 	"publishConfig": {
 		"ignore": [
