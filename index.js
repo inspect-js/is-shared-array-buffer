@@ -17,6 +17,7 @@ module.exports = $byteLength
 			return false;
 		}
 	}
+	// @ts-expect-error
 	: function isSharedArrayBuffer(obj) { // eslint-disable-line no-unused-vars
 		return false;
 	};
