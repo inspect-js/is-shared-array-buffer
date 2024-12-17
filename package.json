@@ -51,7 +51,6 @@
 		"@arethetypeswrong/cli": "^0.17.1",
 		"@ljharb/eslint-config": "^21.1.1",
 		"@ljharb/tsconfig": "^0.2.2",
-		"@types/call-bind": "^1.0.5",
 		"@types/es-value-fixtures": "^1.4.4",
 		"@types/for-each": "^0.3.3",
 		"@types/node": "^20.17.10",
@@ -80,7 +79,7 @@
 		"hideCredit": true
 	},
 	"dependencies": {
-		"call-bind": "^1.0.8"
+		"call-bound": "^1.0.3"
 	},
 	"publishConfig": {
 		"ignore": [
